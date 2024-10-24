@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encore Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+        }
+        .dashboard {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .dashboard div {
+            width: 45%;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Encore Portal</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#rep-login">Rep Login</a>
+    <a href="#customer-login">Customer Login</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="container">
+    <h2>Welcome to the Encore Portal</h2>
+    <p>Choose your login to access the portal:</p>
+
+    <div class="dashboard">
+        <div>
+            <h2>Rep Dashboard</h2>
+            <ul>
+                <li><a href="#">Customer ID</a></li>
+                <li><a href="#">General Info</a></li>
+                <li><a href="#">Price Sheet Management</a></li>
+                <li><a href="#">Activity Tracking</a></li>
+                <li><a href="#">Order Support</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Customer Dashboard</h2>
+            <ul>
+                <li><a href="#">Quick Quote</a></li>
+                <li><a href="#">Tracking</a></li>
+                <li><a href="#">View Price Sheet</a></li>
+                <li><a href="#">Build Your Own PO</a></li>
+                <li><a href="#">Order Support</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Encore Portal © 2024 | Contact Us | Privacy Policy</p>
+</div>
+
+</body>
+</html>
